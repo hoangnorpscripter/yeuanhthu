@@ -1,0 +1,111 @@
+body {
+    background: url(./image/bg.gif) no-repeat center center fixed;
+    background-size: cover;
+}
+#button {
+    min-height: 110vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 105px;
+    
+}
+a.button {
+    margin-left: 90px;
+    padding: 10px 40px;
+    background-color: #25CCF7;
+    border-radius: 30px;
+    color: rgb(0, 10, 148);
+    text-decoration: none;
+    font-size: 40px;
+}   
+a.button2 {
+    margin-right: 90px;
+    padding: 10px 40px;
+    background-color: #ffcccc;
+    border-radius: 30px;
+    color: rgb(77, 0, 57);
+    text-decoration: none;
+    font-size: 40px;
+} 
+img {
+    width: 40px;
+    height: 40px;
+}
+
+.aboutme {
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: fontabc;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 500;
+}
+#pk {
+    margin-top: 100px;
+}
+
+P {
+    font-family: fontabc2;
+    display: flex;
+
+}
+
+
+button {
+    padding: 30px 50px;
+    font-size: 40px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: fontabc;
+
+}
+#auplaybutton {
+    display: flex;
+    justify-content: center;
+}  
+button:hover {
+   background-color: #0056b3;
+}
+
+
+#avata {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.avataimage {
+    display: inline-block; /* Đảm bảo rằng container chỉ có kích thước của hình ảnh */
+    border: 5px solid black; /* Độ rộng và màu sắc của viền */
+    padding: 5px;
+    border-radius: 100%;
+}
+
+.avataimage > img {
+    width: 150px;
+    height: 100%;  
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+H2 {
+    display: flex;
+    justify-content: center;
+    font-family: font3;
+    font-size: 70px;
+}
+
+@font-face {
+    font-family: fontabc;
+    src: url(./image/PoetsenOne-Regular.ttf);
+}
+@font-face {
+    font-family: fontabc2;
+    src: url(./image/OnlyYou.ttf);
+}
+@font-face {
+    font-family: font3;
+    src: url(./image/Sugar\ Cream.otf);
+}    
